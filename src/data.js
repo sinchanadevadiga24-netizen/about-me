@@ -1,14 +1,14 @@
 // Edit this file to personalise the whole site. Every page reads from here.
 export const profile = {
-  name: 'Dona Henry Pinto',
+  name: 'Sinchana',
   role: 'Computer Science Student',
   tagline:
     'I build clean, useful things for the web and enjoy turning ideas into working software.',
   college: 'Sahyadri College of Engineering and Management, Mangalore',
   year: '2nd year, B.E. Computer Science',
-  email: 'donapinto939@gmail.com',
-  github: 'https://github.com/Donapinto',
-  linkedin: 'https://www.linkedin.com/in/dona-pinto-33a465384',
+  email: 'sinchanadevadiga24@gmail.com',
+  github: 'https://github.com/sinchanadevadiga24-netizen',
+  linkedin: 'https://www.linkedin.com/in/sinchana-devadiga-998068384',
   location: 'Mangalore, Karnataka, India',
   resumeUrl: '#',
 };
@@ -27,9 +27,9 @@ export const education = [
   },
   {
     title: 'Higher Secondary',
-    place: 'Govt Benne PU college, nellikeri, kumta',
+    place: 'Sri Chaitanya girls pu college',
     period: '2024-2025',
-    note: 'PCMC Completed with 94.83% aggregate.',
+    note: 'PCMB Completed with 94.5% aggregate.',
   },
 ];
 
@@ -52,33 +52,53 @@ export const skills = [
   },
 ];
 export const projects = [
+
   {
     id: 1,
-    title: 'SafePay Alert',
+    title: 'UPI Fraud Reporting Portal',
     summary:
-      'A full-stack payment safety project with an API backend, a web frontend and a SQL database, built around alerting users about suspicious payment activity.',
-    tags: ['Full Stack', 'Web'],
-    stack: ['API Backend', 'Frontend', 'SQL'],
-    github: 'https://github.com/Donapinto/safepay-alert',
+      'A web-based platform for reporting and managing UPI fraud incidents with report submission, searching, filtering and status management.',
+    tags: ['React', 'JavaScript', 'Node.js', 'Express.js'],
+    stack: ['React', 'Node.js', 'Express.js', 'CSS'],
+    github: 'https://github.com/sinchanadevadiga24-netizen/upi-fraud-reporting-portal',
     live: '',
   },
+
   {
     id: 2,
-    title: 'Developer Profile Card',
+    title: 'Student Grade Calculator',
     summary:
-      'A clean, responsive profile card for a developer, with a photo, a short intro and custom styling.',
-    tags: ['Web', 'Frontend'],
-    stack: ['HTML', 'CSS'],
-    github: 'https://github.com/Donapinto/developer-profile-card',
+      'A simple application that calculates student total marks, average and grade based on the entered marks.',
+    tags: ['JavaScript', 'Web', 'Frontend'],
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/sinchanadevadiga24-netizen/Student-Grade-Calculator',
     live: '',
   },
+
   {
     id: 3,
-    title: 'Personal Portfolio',
-    summary: 'This site: a responsive React portfolio with routing, a project filter and a dark/light theme.',
-    tags: ['React', 'Web'],
-    stack: ['React', 'React Router', 'Vite', 'CSS'],
-    github: '',
+    title: 'Calculator',
+    summary:
+      'A simple web calculator that performs basic arithmetic operations with a clean and responsive interface.',
+    tags: ['Web', 'Frontend'],
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/sinchanadevadiga24-netizen/Calculator',
     live: '',
   },
+
+  {
+    id: 4,
+    title: 'Developer Profile Card',
+    summary:
+      'A responsive developer profile card created using HTML and CSS with a clean and simple design.',
+    tags: ['Web', 'Frontend'],
+    stack: ['HTML', 'CSS'],
+    github: 'https://github.com/sinchanadevadiga24-netizen/developer-profile-card',
+    live: '',
+  },
+
+  
+
+  
+  
 ];
